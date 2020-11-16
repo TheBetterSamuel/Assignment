@@ -1,0 +1,100 @@
+header{
+	background-color: black;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+}
+
+footer{
+	background-color: black;
+	padding-top: 1%;
+	\padding-bottom: 1%;
+	display: flex;
+	flex-wrap:nowrap;
+	justify-content: space-between;
+}
+
+body{
+	margin: 0;
+	background: white;
+}
+
+button{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	border: 2px solid black;
+	width: 12%;
+}
+
+button:hover > h1{
+	color: gray;
+}
+
+h1{
+	font-family: 'Poppins';
+	font-size:18px;
+	color:white;
+}
+
+h2{
+	font-family: 'Poppins';
+	font-size:50px;
+    color:black;
+    width: 100%
+}
+
+h3{
+	font-family: 'Poppins';
+	font-size:16px;
+	color:white;
+}
+
+p{
+	font-family: 'Open Sans';
+	font-size: 30px;
+	color: black;
+	line-height: 100%;
+	width: 75%;
+	text-align: center;
+}
+
+.viruswarning{
+	background-color: red;
+	font-size: 15px;
+	font-family: 'Poppins';
+	color:white;
+	display: flex;
+	justify-content: centered;
+	padding-left: 2%;
+}
+
+.warningsign{
+	width: 2%;
+	height:auto;
+}
+
+.logo{
+	width: 20%;
+	height: 20%;
+}
+
+.footericons{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	width: 40%;
+}
+
+.footerlogo{
+	width:10%;
+	height:auto;
+}
+
+.info{
+    text-align: center;
+    margin: 0;
+    display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}

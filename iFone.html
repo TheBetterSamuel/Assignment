@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <link href="style-2.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <style>
+        #slider{
+            overflow: hidden;
+        }
+        
+        #slider figure{
+            position: relative;
+            width: 500%;
+            margin: 3%;
+            left: 0;
+            animation: 20s slider infinite;
+        }
+        
+        #slider figure img{
+            width: 20%;
+            float: left;
+        }
+        
+        @keyframes slider{
+            0% {
+                left: 0;
+            }
+            20% {
+                left: 0;
+            }
+            25% {
+                left: -100%;
+            }
+            45% {
+                left: -100%;
+            }
+            50% {
+                left: -200%;
+            }
+            70% {
+                left: -200%;
+            }
+            75% {
+                left: -300%;
+            }
+            95% {
+                left: -300%;
+            }
+            100% {
+                left: -400%;
+            }
+        }
+    </style>
+    <body>
+        <header>
+            <button> <a href="index.html"><img class="logo" alt="logo" src="homepage-images/CompanyLogo.png"></a> </button>
+            <button> <h1>iFone</h1> </button>
+            <button> <a href="Mak.html"> <h1>Mak</h1> </a> </button>
+            <button> <a href="iTab.html"> <h1>iTab</h1> </a> </button>
+            <button> <a href="Accessories.html"> <h1>Accessories</h1> </a> </button>
+            <button> <h1>Support</h1> </button>
+        </header>
+        <div class="viruswarning">
+            <img class="warningsign" alt="warning" src="homepage-images/Warning.png">
+            COVID-19 Warning: Stay home and use our online store. Stay safe and keep healthy.
+        </div>
+        <div class="info">
+            <h2>Banana iFone</h2>
+            <p>
+                iFone is the industry-leading phone designed and produced by Banana.
+                The iFone has the power of a computer, right at your fingertips, and with a few
+                presses on the smooth display that goes from edge to edge.
+            </p>
+        </div>
+        <div style="text-align: center;">
+            <h2 style="color: black; margin: 0; padding:2%">Our Other Products</h2>
+        </div>
+        <div id = "slider">
+            <figure>
+                <img alt="iFone" src="sliderphoto/iFone.png">
+                <img alt="iTab" src="sliderphoto/iTab.png">
+                <img alt="iMak" src="sliderphoto/MakTop.png">
+                <img alt="LinkBuds" src="sliderphoto/LinkBuds.png">
+                <img alt="BananaStylus" src="sliderphoto/iFone.png">
+            </figure>
+        </div>
+        <footer>
+            <h1 style="padding-left: 2%">Copyright © 2020 Banana Inc. All rights reserved.</h1>
+            <div class="footericons">
+                <h3>Follow Banana on:</h3>
+                <img class="footerlogo" alt="facebook" src="homepage-images/facebook.png">
+                <img class="footerlogo" alt="instagram" src="homepage-images/instagram.png">
+                <img class="footerlogo" alt="twitter" src="homepage-images/twitter.png">
+                <img class="footerlogo" alt="linkedin" src="homepage-images/linkedin.png">
+            </div>
+        </footer>
+    </body>
+</html>
