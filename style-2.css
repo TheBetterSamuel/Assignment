@@ -98,3 +98,15 @@ p{
 	justify-content: center;
 	flex-wrap: wrap;
 }
+
+.titlerender{
+	font-family: 'Poppins';
+	background-color:black;
+	text-align: center;
+	padding: 1%;
+}
+
+.background{
+	width:100%;
+	height:auto;
+}
