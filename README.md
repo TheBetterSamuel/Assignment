@@ -9,3 +9,9 @@ The customer's intent is to find a product from the website that they desire. Th
 
 External Links:
 Apple's original website - https://www.apple.com/
+the iPhone Renders used(Apple Logos were removed):
+https://www.91mobiles.com/hub/iphone-12-pro-design-quad-rear-cameras-no-notch-concept-video/
+https://www.iphonemod.net/iphone-12-pro-2020-thinner-oled-display-report.html/iphone-12-render
+https://www.91mobiles.com/hub/iphone-12-design-render-smaller-notch-quad-cameras/
+https://www.noypigeeks.com/ios/iphone-12-render-flat-metallic-sides-iphone-4-5-era/
+http://www.igeeksblog.com/iphone-se-2-iphone-9-renders-360-degree-video/
