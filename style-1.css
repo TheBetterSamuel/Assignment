@@ -126,3 +126,36 @@ h3{
   text-align: right;
   line-height: 40%;
 }
+
+
+@media only screen and (max-width:600px){
+	h1{
+		font-size: 10px;
+	}
+
+	h2{
+		font-size: 25px;
+	}
+
+	h3{
+		font-size: 10px;
+	}
+
+	p{
+		font-size: 20px;
+	}
+
+	.logo{
+		width: 25%;
+		height: 25%;
+	}
+
+	.viruswarning{
+		font-size: 8px;
+	}
+
+	.footerlogo{
+		width:10%;
+		height:75%;
+	}
+}
