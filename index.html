@@ -1,120 +1,123 @@
 <!DOCTYPE html>
 <html>
-  <link href="style-1.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
-  <style>
-	#slider{
-		overflow: hidden;
-	}
-	
-	#slider figure{
-		position: relative;
-		width: 500%;
-		margin: 3%;
-		left: 0;
-		animation: 20s slider infinite;
-	}
-	
-	#slider figure img{
-		width: 20%;
-		float: left;
-	}
-	
-	@keyframes slider{
-		0% {
+	<head>
+		<title>Banana - Home</title>
+	</head>
+	<link href="style-1.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+	<style>
+		#slider{
+			overflow: hidden;
+		}
+		
+		#slider figure{
+			position: relative;
+			width: 500%;
+			margin: 3%;
 			left: 0;
+			animation: 20s slider infinite;
 		}
-		20% {
-			left: 0;
+		
+		#slider figure img{
+			width: 20%;
+			float: left;
 		}
-		25% {
-			left: -100%;
+		
+		@keyframes slider{
+			0% {
+				left: 0;
+			}
+			20% {
+				left: 0;
+			}
+			25% {
+				left: -100%;
+			}
+			45% {
+				left: -100%;
+			}
+			50% {
+				left: -200%;
+			}
+			70% {
+				left: -200%;
+			}
+			75% {
+				left: -300%;
+			}
+			95% {
+				left: -300%;
+			}
+			100% {
+				left: -400%;
+			}
 		}
-		45% {
-			left: -100%;
-		}
-		50% {
-			left: -200%;
-		}
-		70% {
-			left: -200%;
-		}
-		75% {
-			left: -300%;
-		}
-		95% {
-			left: -300%;
-		}
-		100% {
-			left: -400%;
-		}
-	}
-  </style>
-  <body>
-	<header>
-		<button> <img class="logo" alt="logo" src="homepage-images/CompanyLogo.png"> </button>
-		<button> <a href="iFone.html"> <h1>iFone</h1> </a> </button>
-		<button> <a href="Mak.html"> <h1>Mak</h1> </a></button>
-		<button> <a href="iTab.html"> <h1>iTab</h1> </a> </button>
-		<button> <a href="Accessories.html"> <h1>Accessories</h1> </a> </button>
-		<button> <h1>Support</h1> </button>
-	</header>
-	<div class="viruswarning">
-		<img class="warningsign" alt="warning" src="homepage-images/Warning.png">
-		COVID-19 Warning: Stay home and use our online store. Stay safe and keep healthy.
-	</div>
-	<div class="container">
-		<img class="background" alt="quote" src="homepage-images/Background1.jpg">
-		<div class="bottom-right">
-			<h3>- Noe Jobs</h3>
-			<h3>Co-Founder and CEO of Banana</h3>
+	</style>
+	<body>
+		<header>
+			<button> <img class="logo" alt="logo" src="homepage-images/CompanyLogo.png"> </button>
+			<button> <a href="iFone.html"> <h1>iFone</h1> </a> </button>
+			<button> <a href="Mak.html"> <h1>Mak</h1> </a></button>
+			<button> <a href="iTab.html"> <h1>iTab</h1> </a> </button>
+			<button> <a href="Accessories.html"> <h1>Accessories</h1> </a> </button>
+			<button> <h1>Support</h1> </button>
+		</header>
+		<div class="viruswarning">
+			<img class="warningsign" alt="warning" src="homepage-images/Warning.png">
+			COVID-19 Warning: Stay home and use our online store. Stay safe and keep healthy.
 		</div>
-		<div class="centered">
-			<h2>"You pay us more,</h2>
-			<h2>We give you less."</h2>
+		<div class="container">
+			<img class="background" alt="quote" src="homepage-images/Background1.jpg">
+			<div class="bottom-right">
+				<h3>- Noe Jobs</h3>
+				<h3>Co-Founder and CEO of Banana</h3>
+			</div>
+			<div class="centered">
+				<h2>"You pay us more,</h2>
+				<h2>We give you less."</h2>
+			</div>
 		</div>
-	</div>
-	<div id = "slider">
-		<figure>
-			<img alt="iFone" src="sliderphoto/iFone.png">
-			<img alt="iTab" src="sliderphoto/iTab.png">
-			<img alt="iMak" src="sliderphoto/MakTop.png">
-			<img alt="LinkBuds" src="sliderphoto/LinkBuds.png">
-			<img alt="BananaStylus" src="sliderphoto/iFone.png">
-		</figure>
-	</div>
-	<div>
-		<article>
-			<h2 style="color: black">About Banana</h3>
-			<p>
-				Banana is a tech company that was founded in 1976.
-				We are based in Los Angeles, California and have been since the beginning.
-				We focus on quality over quantity, and strive to provide
-				the highest quality of products that are reliable
-				and easy to use.
-			</p>
-			<p>
-				Through our 44 years of experience, experimenting
-				and testing new ideas, we have developed multiple
-				revolutionary technology. Our teachnology speaks to
-				the hearts and minds of the people who consume our
-				products, bringing reliability with a strong build,
-				and secure operating systems. We will continue to
-				develop technology that is ground0breaking and far
-				ahead of the competition.
-			</p>
-		</article>
-	</div>
-	<footer>
-		<h1 style="padding-left: 2%">Copyright © 2020 Banana Inc. All rights reserved.</h1>
-		<div class="footericons">
-			<h3>Follow Banana on:</h3>
-			<img class="footerlogo" alt="facebook" src="homepage-images/facebook.png">
-			<img class="footerlogo" alt="instagram" src="homepage-images/instagram.png">
-			<img class="footerlogo" alt="twitter" src="homepage-images/twitter.png">
-			<img class="footerlogo" alt="linkedin" src="homepage-images/linkedin.png">
+		<div id = "slider">
+			<figure>
+				<img alt="iFone" src="sliderphoto/iFone.png">
+				<img alt="iTab" src="sliderphoto/iTab.png">
+				<img alt="iMak" src="sliderphoto/MakTop.png">
+				<img alt="LinkBuds" src="sliderphoto/LinkBuds.png">
+				<img alt="BananaStylus" src="sliderphoto/iFone.png">
+			</figure>
 		</div>
-	</footer>
-  </body>
+		<div>
+			<article>
+				<h2 style="color: black">About Banana</h3>
+				<p>
+					Banana is a tech company that was founded in 1976.
+					We are based in Los Angeles, California and have been since the beginning.
+					We focus on quality over quantity, and strive to provide
+					the highest quality of products that are reliable
+					and easy to use.
+				</p>
+				<p>
+					Through our 44 years of experience, experimenting
+					and testing new ideas, we have developed multiple
+					revolutionary technology. Our teachnology speaks to
+					the hearts and minds of the people who consume our
+					products, bringing reliability with a strong build,
+					and secure operating systems. We will continue to
+					develop technology that is ground0breaking and far
+					ahead of the competition.
+				</p>
+			</article>
+		</div>
+		<footer>
+			<h1 style="padding-left: 2%">Copyright © 2020 Banana Inc. All rights reserved.</h1>
+			<div class="footericons">
+				<h3>Follow Banana on:</h3>
+				<img class="footerlogo" alt="facebook" src="homepage-images/facebook.png">
+				<img class="footerlogo" alt="instagram" src="homepage-images/instagram.png">
+				<img class="footerlogo" alt="twitter" src="homepage-images/twitter.png">
+				<img class="footerlogo" alt="linkedin" src="homepage-images/linkedin.png">
+			</div>
+		</footer>
+	</body>
 </html>

@@ -83,7 +83,7 @@ h3{
 
 .logo{
 	width: 20%;
-	height: 20%;
+	height: auto;
 }
 
 .background{
@@ -146,8 +146,8 @@ h3{
 	}
 
 	.logo{
-		width: 25%;
-		height: 25%;
+		width: 30%;
+		height: 60%;
 	}
 
 	.viruswarning{
