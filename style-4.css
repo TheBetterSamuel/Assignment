@@ -1,0 +1,181 @@
+header{
+	background-color: black;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+}
+
+footer{
+	background-color: black;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	display: flex;
+	flex-wrap:nowrap;
+	justify-content: space-between;
+}
+
+body{
+	margin: 0;
+	background: white;
+}
+
+button{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	border: 2px solid black;
+	width: 12%;
+}
+
+button:hover > h1{
+	color: gray;
+}
+
+h1{
+	font-family: 'Poppins';
+	font-size:18px;
+	color:white;
+}
+
+h2{
+	font-family: 'Poppins';
+	font-size:50px;
+    color:black;
+    width: 100%
+}
+
+h3{
+	font-family: 'Poppins';
+	font-size:16px;
+	color:white;
+}
+
+p{
+	font-family: 'Open Sans';
+	font-size: 30px;
+	color: black;
+	line-height: 100%;
+	width: 75%;
+	text-align: center;
+}
+
+.viruswarning{
+	background-color: red;
+	font-size: 15px;
+	font-family: 'Poppins';
+	color:white;
+	display: flex;
+	justify-content: centered;
+	padding-left: 2%;
+}
+
+.warningsign{
+	width: 2%;
+	height:auto;
+}
+
+.logo{
+	width: 20%;
+	height: auto;
+}
+
+.footericons{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	width: 40%;
+}
+
+.footerlogo{
+	width:10%;
+	height:auto;
+}
+
+.info{
+    text-align: center;
+    margin: 0;
+    display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.titlerender{
+	font-family: 'Poppins';
+	background-color:black;
+	text-align: center;
+	padding: 1%;
+}
+
+.background{
+	width:100%;
+	height:auto;
+}
+
+.infopanel{
+    padding-bottom: 2%;
+    padding-left: 2%;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+}
+
+.infoimgrender{
+	width:50%;
+	height:50%;
+}
+
+.infoimgtext{
+	width:50%;
+	height:100%;
+}
+
+@media only screen and (max-width:600px){
+	h1{
+		font-size: 10px;
+	}
+
+	h2{
+		font-size: 30px;
+	}
+
+	h3{
+		font-size: 10px;
+	}
+
+	p{
+		font-size: 20px;
+	}
+
+	.logo{
+		width: 30%;
+		height: 60%;
+	}
+
+	.viruswarning{
+		font-size: 8px;
+	}
+
+	.footerlogo{
+		width:10%;
+		height:75%;
+	}
+
+	.infoimgrender{
+		width:60%;
+		height:auto;
+		order: 1;
+	}
+	
+	.infoimgtext{
+		width:90%;
+		height:auto;
+		order: 2;
+		padding-left: 2%;
+	}
+
+	.infopanel{
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
