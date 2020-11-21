@@ -106,13 +106,8 @@ p{
 	padding: 1%;
 }
 
-.background{
-	width:100%;
-	height:auto;
-}
-
 .infopanel{
-	padding-bottom: 2%;
+    padding-bottom: 2%;
     padding-left: 2%;
 	width: 100%;
 	display: flex;
@@ -121,13 +116,13 @@ p{
 }
 
 .infoimgrender{
-	width:30%;
-	height:30%;
+	width:50%;
+	height:50%;
 }
 
 .infoimgtext{
-	width:60%;
-	height:80%;
+	width:50%;
+	height:100%;
 }
 
 @media only screen and (max-width:600px){
