@@ -34,12 +34,14 @@ button:hover > h1{
 h1{
 	font-family: 'Poppins';
 	font-size:18px;
+	font-weight: 300;
 	color:white;
 }
 
 h2{
 	font-family: 'Poppins';
 	font-size:50px;
+	font-weight: 300;
     color:black;
     width: 100%
 }
@@ -51,7 +53,8 @@ h3{
 }
 
 h4{
-    font-family: 'Poppins';
+	font-family: 'Poppins';
+	font-weight: 200;
 	font-size:25px;
 	color:black;
 }
@@ -69,8 +72,9 @@ input(
 )
 
 p{
-	font-family: 'Open Sans';
+	font-family: 'Poppins';
 	font-size: 30px;
+	font-weight: 200;
 	color: black;
 	line-height: 100%;
 	width: 75%;

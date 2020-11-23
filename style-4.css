@@ -34,12 +34,14 @@ button:hover > h1{
 h1{
 	font-family: 'Poppins';
 	font-size:18px;
+	font-weight: 300;
 	color:white;
 }
 
 h2{
 	font-family: 'Poppins';
 	font-size:50px;
+	font-weight: 300;
     color:black;
     width: 100%
 }
@@ -51,8 +53,9 @@ h3{
 }
 
 p{
-	font-family: 'Open Sans';
+	font-family: 'Poppins';
 	font-size: 30px;
+	font-weight: 200;
 	color: black;
 	line-height: 100%;
 	width: 75%;
@@ -120,14 +123,38 @@ p{
 	justify-content: space-evenly;
 }
 
-.infoimgrender{
-	width:50%;
-	height:50%;
+.inforender{
+	width:45%;
+	height:25%;
 }
 
-.infoimgtext{
+.infotext{
 	width:50%;
-	height:100%;
+	height:80%;
+	font-family: 'Poppins';
+	line-height: 100%;
+}
+
+.infotext > h1{
+	font-size: 65px;
+	color: black;
+	font-weight: 300;
+}
+
+.infotext > p{
+	font-size: 20px;
+	color: black;
+	font-family: 'Poppins';
+	line-height: 100%;
+	width: 100%;
+}
+
+.infotext > ul{
+	font-size: 25px;
+	color: black;
+	font-weight: 200;
+	line-height: 125%;
+	list-style-type: none;
 }
 
 @media only screen and (max-width:600px){
@@ -161,13 +188,14 @@ p{
 		height:75%;
 	}
 
-	.infoimgrender{
-		width:60%;
+	.inforender{
+		width:90%;
 		height:auto;
 		order: 1;
+		padding-left: 8%;
 	}
 	
-	.infoimgtext{
+	.infotext{
 		width:90%;
 		height:auto;
 		order: 2;
@@ -176,6 +204,18 @@ p{
 
 	.infopanel{
 		display: flex;
-		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.infotext > h1{
+		font-size: 40px;
+	}
+	
+	.infotext > p{
+		font-size: 18px;
+	}
+	
+	.infotext > ul{
+		font-size: 20px;
 	}
 }
