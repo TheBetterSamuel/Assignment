@@ -3,7 +3,9 @@ This website is inspired by Apple. Using a simplistic black and white style webs
 
 This Website has 6 pages. They are the Home Page, a page for each type of product, and a support page for any cocerns regarding the products. The products are the iFone, iTab, the Mak and any accessories that accompany the products.
 
-The audience would be supporters of this brand, and those who wish to try out the products. This website serves as a catalogue for users to navigate and find their desired products, so as to either buy the product in store or via the online store.
+The audience would be supporters of this brand, and those who wish to try out the products. This website serves as a catalogue for users to navigate and find their desired products, so as to either buy the product in store or via the online store. Not only would the supporters be able to see the newest products released, those who wish to experience the product can understand the products better as there are specifications given for each product.
+
+Not only that, the website provides an outlet for the company to reach out to its customer. The Service and Support page gives a space and opportunity for customers to voice out concerns regarding their products, or any issues with a faulty product that they have bought. This allows not only the customers to get their issues resolved, it also serves as feedback for the company for further improvements on both the website and its products.
 
 The customer's intent is to find a product from the website that they desire. They would consider buying the product or look at other brands. Their purpose is to help maintain the business as it is a consumer=run business, and also to grow and interest in the company if they have never bought any of the products before.
 
