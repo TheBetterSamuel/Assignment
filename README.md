@@ -103,4 +103,4 @@ I also check each code file to ensure there are no typos in the code, or incorre
 * https://www.w3schools.com/
 
 ### Google drive link for the wireframes
-* https://drive.google.com/drive/folders/1Gy-TGkeOX_vmiNeGMCin-nPbNe550bp7?usp=sharing
+* https://drive.google.com/drive/folders/1qpf1JD38dt7R-GZVBMLLTkTBBUXFT3HX?usp=sharing
