@@ -101,3 +101,6 @@ I also check each code file to ensure there are no typos in the code, or incorre
 
 **W3 Schools for help with CSS and HTML**
 * https://www.w3schools.com/
+
+### Google drive link for the wireframes
+* https://drive.google.com/drive/folders/1Gy-TGkeOX_vmiNeGMCin-nPbNe550bp7?usp=sharing
