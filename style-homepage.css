@@ -50,20 +50,33 @@ p{
 h1{
 	font-family: 'Poppins';
 	font-size:18px;
+	font-weight: 300;
 	color:white;
 }
 
 h2{
 	font-family: 'Poppins';
 	font-size:70px;
-	font-weight: 200;
-	color:white;
+	font-weight: 300;
+    color:white;
+	width: 100%;
+	text-align:center;
 }
 
 h3{
 	font-family: 'Poppins';
 	font-size:16px;
 	color:white;
+}
+
+p{
+	font-family: 'Poppins';
+	font-size: 30px;
+	font-weight: 200;
+	color: black;
+	line-height: 100%;
+	width: 75%;
+	text-align: center;
 }
 
 .viruswarning{
