@@ -102,5 +102,9 @@ I also check each code file to ensure there are no typos in the code, or incorre
 **W3 Schools for help with CSS and HTML**
 * https://www.w3schools.com/
 
+### Fonts used
+* Poppins: https://fonts.google.com/specimen/Poppins
+* Myriad Pro: https://www.cufonfonts.com/font/myriad-pro
+
 ### Google drive link for the wireframes
 * https://drive.google.com/drive/folders/1qpf1JD38dt7R-GZVBMLLTkTBBUXFT3HX?usp=sharing
